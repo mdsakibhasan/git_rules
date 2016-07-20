@@ -1,0 +1,28 @@
+now my new branch is sakib_v3
+if i want to marge with this branch with mazid_v2 (this is the latest merge branch)
+
+
+1.then fetch in my branch sakib_v3 (git fetch )
+2.then goto mazid_v2 branch (git checkout mazid_v2)
+3.then merge with mazidur lastest branch ... (git merge origin/sakib_v3)
+4.then goto git gui. if confilct fix and commite and push. (git push mazid_v2).
+{now latest merge branch is mazid_v2} 
+
+merge done......
+
+After tommorow moring i just checkout new branch and start work (git checkout -b sakib_v4).
+1.then work and commit and push in my branch (git push origin sakib_v4)
+
+
+
+************************ this process will continue ********************************
+
+last a kaj push korar por git fetch .
+git checkout -b sakib_100
+git merge origin/sakib_old
+confix figing
+commit 
+push
+
+
+git checkout -b sakib 200 working suru if anyonr then ( git fetch )
