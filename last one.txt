@@ -1,0 +1,46 @@
+------------------get Merge with all other branch------------------------
+
+1. git commit -am'here is my todays work'
+2. git push origin sakib_v1
+3. git fetch ( see the black windows all give branch 1. dev_up 2. dev_mid 3. dev_bottom)
+4. git checkout dev_latest
+5. git merge origin/dev_up
+--- go to git gui see the all confitc
+--- stage change ,
+--- git commit -am'here is the cofix fix with dev_UP branch' (if you git gui no need write commit msg)
+--- git push origin dev_latest
+
+5.a. git merge origin/dev_mid
+--- go to git gui see the all confitc
+--- stage change , 
+--- git commit -am'here is the cofix fix with dev_mid branch' (if you git gui no need write commit msg)
+--- git push origin dev_latest
+
+5.c. git merge origin/dev_bottom
+--- go to git gui see the all confitc
+--- stage change ,
+--- git commit -am'here is the cofix fix with dev_bottom branch' (if you git gui no need write commit msg)
+--- git push origin dev_latest
+(now this branch is latest if want wore here you can if want checkout new branch you can!!!!!!)
+
+
+
+
+
+------------------get new full update from project after merge ------------------------
+
+1. git fetch ( see the black windows the latest or full up branch dev_up)
+2. git checkout dev_up
+3. git checkout -b sakib_v2
+
+
+
+
+------------------if some work done (commit done) after merge get new full update from project------------------------
+
+1. git commit -am'here is my todays work'
+2. git push origin sakib_v1
+3. git fetch ( see the black windows the latest or full up branch dev_up)
+4. git checkout dev_up
+5. git checkout -b sakib_v2
+(now all work adjust with my merge)
