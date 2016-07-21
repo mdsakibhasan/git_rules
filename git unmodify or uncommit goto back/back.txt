@@ -1,0 +1,2 @@
+git reset --hard use this commend for (when you work but not commit you can goto your last work back just use this commend)
+git clean -fd (this command use for clean those work) before commit

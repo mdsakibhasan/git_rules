@@ -1,0 +1,4 @@
+go to latest branch when no need your old work
+1.git fetch (from your old branch sakib_old)
+2.git checkout sakib_latest fetching branch (up on then blackwindows)
+3.git checkout -b sakibnew
